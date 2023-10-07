@@ -10,3 +10,8 @@ edition = "2021"
 [dependencies]
 lazysimd_macro = { path = "./lazysimd_macro" }
 skyline = { git = "https://github.com/Raytwo/skyline-rs", branch = "preview" }
+
+[features]
+default = []
+aarch64 = []
+x86-64 = []
